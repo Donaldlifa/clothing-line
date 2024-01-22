@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--SWIPER CSS-->
+    <link rel="stylesheet" href="assets/CSS/unpkg.com_swiper@8.4.7_swiper-bundle.min.css">
+    <script src="assets/JS/unpkg.com_swiper@8.4.7_swiper-bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                Shopwise
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" active-link>
+                            <i class="ri-home-4-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#new" class="nav-link">
+                            <i class="ri-price-tag-2-fill"></i>
+                            <span>New</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#collection" class="nav-link">
+                            <i class="ri-compass-fill"></i>
+                            <span>Collection</span>
+                        </a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a href="#products" class="nav-link">
+                            <i class="ri-t-shirt-fill"></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-----Theme change button ----->
+            <i class="ri-moon-fill change-theme" id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--========== MAIN ==========-->
+
+    <main class="main">
+    <!--========== HOME SECTION ==========-->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-data">
+                    <h1 class="home-title">
+                        New Clothing <br>
+                        Collection
+                    </h1>
+
+                    <p class="home-description">
+                        The new collection from <br>
+                        the best brands this year.
+                    </p>
+
+                    <a href="#new" class="button-link">
+                        Explore <i class="ri-arrow-right-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home-images">
+                    <img src="assets/img/pexels-tobi-457445.jpg" alt="home image">
+                    <img src="assets/img/pexels-marco-trinidad-2881785.jpg" alt="home image">
+                </div>
+            </div>
+        </section> 
+    <!--========== NEW SECTION ==========-->
+        <section class="new section" id="new">
+            <h2 class="section-title">
+                New Categories
+            </h2>
+
+            <div class="new-container container grid">
+                <article class="new-card">
+                    <img src="assets/img/pexels-devon-rockola-800626.jpg" alt="new image" class="new-image">
+
+                    <a href="#" class="new-link">
+                        <div class="new-data">
+                            <h2 class="new-title">
+                                Hoodie & Sweatshirt
+                            </h2>
+                            <span>Winter Collection</span>
+                        </div>
+
+                        <i class="ri-arrow-right-fill"></i>
+                    </a>
+                </article>
+
+                <article class="new-card">
+                    <img src="assets/img/pexels-jeys-tubianosa-3538028.jpg" alt="new image" class="new-image">
+
+                    <a href="#" class="new-link">
+                        <div class="new-data">
+                            <h2 class="new-title">
+                                Pants & Jackets
+                            </h2>
+                            <span>Winter Collection</span>
+                        </div>
+
+                        <i class="ri-arrow-right-fill"></i>
+                    </a>
+                </article>
+
+                <article class="new-card">
+                    <img src="assets/img/pexels-athena-2043590.jpg" alt="new image" class="new-image">
+
+                    <a href="#" class="new-link">
+                        <div class="new-data">
+                            <h2 class="new-title">
+                                Coats & Coat Sets
+                            </h2>
+                            <span>Winter Collection</span>
+                        </div>
+
+                        <i class="ri-arrow-right-fill"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+    <!--========== COLLECTION SECTION ==========-->
+        <section class="collection section" id="collection">
+            <div class="collection-container container">
+                <div class="collection-explorer">
+                    <div class="collection-data-men">
+                        <h2 class="collection-title">
+                        Men <br>
+                        Collection
+                        </h2>
+                        <a href="#" class="new-link">
+                            Explore Clothes <i class="ri-arrow-right-fill"></i>
+                        </a>
+                    </div>
+
+                    <img src="assets/img/pexels-vlad-9468833.jpg" alt="collection image">
+                </div>
+
+                <div class="collection-explorer">
+                    <img src="assets/img/pexels-kevin-kabore-4966995.jpg" alt="collection image">
+
+                    <div class="collection-data-women">
+                        <h2 class="collection-title">
+                         Woman <br>
+                         Collection
+                        </h2>
+                        <a href="#" class="new-link">
+                            Explore Clothes <i class="ri-arrow-right-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--========== PRODUCTS SECTION ==========-->
+        <section class="products section" id="products">
+            <h2 class="section-title">
+                Best Products
+            </h2>
+
+            <div class="products-container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="products-card swiper-slide">
+                        <img src="assets/img/pexels-omar-lópez-1192601.jpg" alt="products image" class="products-image">
+
+                        <h2 class="products-title">
+                            Adidas Black Jacket
+                        </h2>
+                        <span class="products-price">
+                            R1000.00
+                        </span>
+                    </article>
+
+                    <article class="products-card swiper-slide">
+                        <img src="assets/img/pexels-arianna-jadé-4754648.jpg" alt="products image" class="products-image">
+
+                        <h2 class="products-title">
+                           Women's Leopard Sweater
+                        </h2>
+                        <span class="products-price">
+                            R950
+                        </span>
+                    </article>
+
+                    <article class="products-card swiper-slide">
+                        <img src="assets/img/pexels-muhammad-rifki-adiyanto-1105058.jpg" alt="products image" class="products-image">
+
+                        <h2 class="products-title">
+                            Men's Jean Jacket
+                        </h2>
+                        <span class="products-price">
+                            R500
+                        </span>
+                    </article>
+
+                    <article class="products-card swiper-slide">
+                        <img src="assets/img/pexels-honggyu-kim-18161699.jpg" alt="products image" class="products-image">
+
+                        <h2 class="products-title">
+                            Nike Black T-Shirt
+                        </h2>
+                        <span class="products-price">
+                            R300
+                        </span>
+                    </article>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+
+            </div>
+        </section>
+
+        <!--========== BRAND SECTION ==========--> 
+        <section class="brand section">
+            <h2 section-title>
+                Brands We Sell
+            </h2>
+
+            <div class="brand-container container grid">
+                <img src="assets/img/adidas.jpg" alt="logo image" class="brand-image">
+                <img src="assets/img/nike logo.jpg" alt="logo image" class="brand-image">
+                <img src="assets/img/puma.jpg" alt="logo image" class="brand-image">
+                <img src="assets/img/reebok logo.jpg" alt="logo image" class="brand-image">
+            </div>
+        </section>
+
+
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div>
+                <a href="#" class="footer-logo">
+                    Shopwise
+                </a>
+
+                <p class="footer-description">
+                    Committed to bringing you the <br>
+                    best clothing from popular <br>
+                    brands.
+                </p>
+            </div>
+
+            <div class="footer-content">
+                <div>
+                    <h3 class="footer-title">
+                        Company
+                    </h3>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#" class="footer-link">Shop</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Category</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Contact info</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">
+                        Blog
+                    </h3>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#" class="footer-link">Events</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Popular news</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Recent news</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">
+                        Office
+                    </h3>
+
+                    <p class="footer-information">
+                        Monday - Saturday<br>
+                        09h00-22h00
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Contact us</h3>
+
+                        <ul class="footer-socials">
+                            <!--Enter your facebook account-->
+                            <a href="https://www.facebook.com/" target="_blank" class="footer-socials-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+
+                            <!--Enter your X account-->
+                            <a href="https://www.twitter.com" target="_blank" class="footer-socials-link">
+                                <i class="ri-twitter-x-fill"></i>
+                            </a>
+
+                            <!--Enter your instagram account-->
+                            <a href="https://www.instagram.com" target="_blank" class="footer-socials-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+
+                            <!--Insert real number plus country code-->
+                            <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" class="footer-socials-link">
+                                <i class="ri-whatsapp-fill"></i>
+                            </a>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-info container">
+            <span class="footer-copy">
+                &#169; ElDcode. All rights reserved
+            </span>
+
+            <a href="#" class="footer-privacy">
+                Terms & Conditions
+            </a>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="assets/JS/raw.githubusercontent.com_jlmakes_scrollreveal_master_dist_scrollreveal.min.js "></script>
+    <script src="assets/JS/main.js"></script>
+</body>
+</html>
